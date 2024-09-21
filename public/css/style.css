@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+.navbar{
+    height: 5rem;
+    background-color: white;
+}
+.container{
+    flex: 1;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.fa-compass{
+    color: #fe424d;
+    font-size: 2rem;
+}
+.nav-link{
+    color: #222222 !important;
+}
+.card{
+    border: none !important;
+
+}
+.card-img-top {
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+.card{
+    margin-left: 35px !important;
+    margin-top: 15px !important;
+}
+.card-body{
+    padding: 2px 0px;
+}
+.card-text {
+    font-weight:200;
+}
+.listing-link {
+    text-decoration: none;
+}
+.card-img-overlay {
+    opacity: 0;
+}
+.card-img-overlay{
+    opacity: 0.2;
+    background-color: white;
+}
+.show-img {
+    height: 30vh !important;
+}
